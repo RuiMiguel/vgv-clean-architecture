@@ -11,6 +11,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   HomeBloc({required this.repository}) : super(HomeState.initial()) {
     on<HomeDataRequested>(_onHomeDataRequested);
   }
+
   final IRepository repository;
 
   Future<void> _onHomeDataRequested(
