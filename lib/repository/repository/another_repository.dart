@@ -1,3 +1,4 @@
+import 'package:clean_architecture/data/data.dart';
 import 'package:clean_architecture/domain/domain.dart';
 import 'package:clean_architecture/repository/repository.dart';
 
